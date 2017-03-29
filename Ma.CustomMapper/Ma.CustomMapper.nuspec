@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ma.CustomMapper</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>MammadovAdil</authors>
+    <owners>MammadovAdil</owners>
+    <licenseUrl>https://github.com/MammadovAdil/CustomMapper/blob/master/License.md</licenseUrl>
+    <projectUrl>https://github.com/MammadovAdil/CustomMapper</projectUrl>
+    <iconUrl>https://cdn0.iconfinder.com/data/icons/audio-controls-ui-icons/40/mix-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Map models from one to another.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Map CustomMap Mapper ModelMapper</tags>
+
+    <dependencies>
+      <dependency id="Ma.ExtensionMethods" version="1.0.0" />
+    </dependencies>    
+  </metadata>
+</package>
