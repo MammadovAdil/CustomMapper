@@ -3,6 +3,7 @@
 Add following method to the project where you have mapper classes,
 and call it when program starts to register all mappers:
 
+```C#
 /// <summary>
 /// Register all custom mapper classes.
 /// </summary>
@@ -22,3 +23,4 @@ public static void RegisterMappers()
         Mapper.Configurations.AddMapper(mapper);
     }
 }
+```
