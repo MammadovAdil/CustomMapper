@@ -1,9 +1,9 @@
-﻿Implement your mapper classes from IMapper<,> interface.
+﻿Implement your mapper classes from `IMapper<,>` interface.
 
 Add following method to the project where you have mapper classes,
 and call it when program starts to register all mappers:
 
-```C#
+```cs
 /// <summary>
 /// Register all custom mapper classes.
 /// </summary>
