@@ -1,4 +1,6 @@
-﻿Implement your mapper classes from `IMapper<,>` interface.
+﻿#CustomMapper
+
+Implement your mapper classes from `IMapper<,>` interface.
 
 Add following method to the project where you have mapper classes,
 and call it when program starts to register all mappers:
@@ -24,3 +26,5 @@ public static void RegisterMappers()
     }
 }
 ```
+
+You can find **NuGet package** for this project [here](https://www.nuget.org/packages/Ma.CustomMapper/).
