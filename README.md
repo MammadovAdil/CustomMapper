@@ -1,4 +1,4 @@
-﻿#CustomMapper
+# CustomMapper
 
 Implement your mapper classes from `IMapper<,>` interface.
 
