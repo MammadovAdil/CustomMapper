@@ -30,9 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ma.ExtensionMethods, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ma.ExtensionMethods.1.0.0\lib\net45\Ma.ExtensionMethods.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ma.ExtensionMethods, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ma.ExtensionMethods.1.0.2\lib\net45\Ma.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,15 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAsyncMapper.cs" />
     <Compile Include="Abstract\IMapper.cs" />
-    <Compile Include="Mapper.cs" />
+    <Compile Include="Abstract\IMapperBase.cs" />
+    <Compile Include="CustomMapper.cs" />
+    <Compile Include="ICustomMapper.cs" />
     <Compile Include="Models\Configurations.cs" />
     <Compile Include="Models\MappingConfiguration.cs" />
     <Compile Include="Models\MappingStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,25 +1,27 @@
-﻿namespace Ma.CustomMapper.Abstract
+﻿using System.Threading.Tasks;
+
+namespace Ma.CustomMapper.Abstract
 {
-  /// <summary>Mapper interface with only Target type</summary>
+  /// <summary>Asynchronous mapper interface with only Target type.</summary>
   /// <typeparam name="TTarget">Type of target</typeparam>
-  public interface IMapper<TTarget> : IMapperBase
+  public interface IAsyncMapper<TTarget> : IMapperBase
       where TTarget : class
   {
-    /// <summary>Map source object from type of source to TTarget type</summary>
+    /// <summary>Map source object from type of source to TTarget type asynchronously</summary>
     /// <param name="source">Source to map</param>
     /// <param name="mapChildEntities">Also Map child entities in this source</param>
-    /// <returns>Mapped object of TTarget type</returns>
-    TTarget Map(object source, bool mapChildEntities);
+    /// <returns>Task to get mapped object of TTarget type</returns>
+    Task<TTarget> MapAsync(object source, bool mapChildEntities);
   }
 
   /// <summary>
   /// Interface which custom mappers must implement
   /// in order to be able to map object from one type
-  /// to other.
+  /// to other asynchronously.
   /// </summary>
   /// <typeparam name="TSource">Thpe of source.</typeparam>
   /// <typeparam name="TTarget">Type of target.</typeparam>
-  public interface IMapper<TSource, TTarget> : IMapper<TTarget>
+  public interface IAsyncMapper<TSource, TTarget> : IAsyncMapper<TTarget>
       where TSource : class
       where TTarget : class
   {
