@@ -59,6 +59,7 @@ namespace Ma.CustomMapper.Models
           TargetType = targetType
         };
 
+      currentConfig.Mapper = mapper;
       if (!MappingStorage.Instance.MappingConfigurations.Contains(currentConfig))
         MappingStorage.Instance.MappingConfigurations.Add(currentConfig);
     }
