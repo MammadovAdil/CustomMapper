@@ -11,7 +11,7 @@
     <iconUrl>https://cdn0.iconfinder.com/data/icons/audio-controls-ui-icons/40/mix-128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Map models from one to another.</description>
-    <releaseNotes>Add support for async mappings.</releaseNotes>
+    <releaseNotes>Bug fixs.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Map CustomMap Mapper ModelMapper</tags>
 
