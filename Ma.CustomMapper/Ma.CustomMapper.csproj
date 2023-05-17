@@ -10,8 +10,8 @@
     <Authors>Adil Mammadov</Authors>
     <Description>Map models from one to another.</Description>
     <Copyright>Copyright 2023</Copyright>
-    <PackageProjectUrl>https://github.com/MammadovAdil/aaaaaaaaaaaaaaa</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MammadovAdil/aaaaaaaaaaaaaaa</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MammadovAdil/CustomMapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MammadovAdil/CustomMapper</RepositoryUrl>
     <PackageReleaseNotes>Migrate to .Net 7</PackageReleaseNotes>
     <Title>CustomMapper by Adil Mammadov</Title>
     <PackageTags>map;custpm-map;mapper;model-mapper;</PackageTags>
