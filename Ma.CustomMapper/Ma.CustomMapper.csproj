@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
@@ -12,13 +12,13 @@
     <Copyright>Copyright 2023</Copyright>
     <PackageProjectUrl>https://github.com/MammadovAdil/CustomMapper</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MammadovAdil/CustomMapper</RepositoryUrl>
-    <PackageReleaseNotes>Migrate to .Net 7</PackageReleaseNotes>
+    <PackageReleaseNotes>Upgrade to .Net 9</PackageReleaseNotes>
     <Title>CustomMapper by Adil Mammadov</Title>
     <PackageTags>map;custpm-map;mapper;model-mapper;</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>License.md</PackageLicenseFile>
-    <Version>2.0.0</Version>
+    <Version>9.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -40,6 +40,6 @@
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Ma.ExtensionMethods" Version="2.0.1" />
+    <PackageReference Include="Ma.ExtensionMethods" Version="9.0.0" />
   </ItemGroup>
 </Project>
